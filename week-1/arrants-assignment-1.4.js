@@ -25,11 +25,11 @@
 // variable declaration and assignment goes here ...
 var firstName = "Joshua";
 var lastName = "Arrants";
-var Age = "27"
-var Street = "1607 Seaton Park"
-var City = "Montgomery"
-var State = "AL"
-var zipCode = "36116"
+var Age = "27";
+var Street = "1607 Seaton Park";
+var City = "Montgomery";
+var State = "AL";
+var zipCode = "36116";
 
 
 // output 
