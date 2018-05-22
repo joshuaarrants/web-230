@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Assignment 1.3
+; Title: Exercise 1.3
 ; Author: Professor Krasso
 ; Date: 21 May 2018
 ; Modified By: Josh Arrants
