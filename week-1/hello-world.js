@@ -12,6 +12,7 @@
 
 //start program
 
+//output
 console.log("Hello World, my name is Joshua Arrants");
 
 //end program
