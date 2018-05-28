@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Assignment 2.2
+; Title: Exercise 2.2
 ; Author: Professor Krasso
 ; Date: 28 May 2018
 ; Modified By: Joshua Arrants
