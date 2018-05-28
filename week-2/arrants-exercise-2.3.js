@@ -27,7 +27,7 @@ var header = require('../header.js');
 */ 
 
 // function properties go here...
-myName.fullName = "Joshua Arrants"
+myName.fullName = "Joshua Arrants";
 
 // function 
 function myName() {
