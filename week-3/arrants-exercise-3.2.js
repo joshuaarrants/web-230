@@ -40,7 +40,7 @@ var test6 = "Three";
 
 // functions 
 function match(arg1,arg2) {
-    if (arg1=== arg2)
+    if (arg1===arg2)
         return true;
     else 
         return false;
@@ -51,7 +51,7 @@ function logMismatch(arg1,arg2) {
 }
 
 function logMatch(arg1,arg2) {
-    console.log(arg1 + " and " + arg2 + " do match!")
+    console.log(arg1 + " and " + arg2 + " do match!");
 }
 
 
