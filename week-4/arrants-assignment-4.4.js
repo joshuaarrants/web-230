@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 11 June 2018
 ; Modified By: Joshua Arrants
-; Description:
+; Description: This program uses the sort and filtr method on an array.
 ======
 */
 
