@@ -73,6 +73,6 @@ console.log("-- COMPOSERS --");
 composers.forEach(function(composer) {
     console.log(
         "Last Name: " + composer.lastName + ", " + "Genre: " + composer.Genre + ", " + "Rating: " + composer.Rating);
-})
+});
 
 // end program
