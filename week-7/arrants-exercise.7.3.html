@@ -1,0 +1,82 @@
+<!--
+============================================
+; Title: Exercise 7.3
+; Author: Professor Krasso
+; Date: 03 July 2018
+; Modified By: Joshua Arrants
+; Description: This HTML page uses scripts to 
+;              display an ordered list of 5 grocery 
+;              items. The first script uses document.write() 
+;              and HTML content. The second script uses innerHTML, HTML 
+;              content and builds a table of the 5 grocery items. A site.css
+;              file sets at the base directory and styles the table. 
+======
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7.3</title>
+
+    <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+
+<div id="list"></div>
+
+<script>
+    // document.write() code goes here...
+    document.write("<h1>SHOPPING LIST v.1</h1>");
+    document.write("<ol>");
+    // list items
+    document.write("<li>Oranges</li>");
+    document.write("<li>Apples</li>");
+    document.write("<li>Pears</li>");
+    document.write("<li>Limes</li>");
+    document.write("<li>Lemons</li>");
+    document.write("</ol>");
+</script>
+
+<div id="table"></div>
+
+<script>
+    // innerHTML code goes here ...
+    document.getElementById('table').innerHTML = "<h1>SHOPPING LIST v.2</h1>" +
+    "<table>" +
+        "<thead>" +
+            "<tr>" +
+                "<th>Id</th>" +
+                "<th>Item</th>" + 
+            "</tr>" +
+        "</thead>" +
+        "<tbody>" +
+            "<tr>" +
+                "<td>1</td>" +
+                "<td>Oranges</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>2</td>" +
+                "<td>Apples</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>3</td>" +
+                "<td>Pears</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>4</td>" +
+                "<td>Limes</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>5</td>" +
+                "<td>Lemons</td>" +
+            "</tr>" +
+        "</tbody>" +
+    "</table>"
+</script>
+
+</body>
+</html>
