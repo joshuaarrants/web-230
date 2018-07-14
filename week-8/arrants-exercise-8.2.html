@@ -1,0 +1,69 @@
+<!--
+============================================
+; Title: Exercise 8.2
+; Author: Professor Krasso
+; Date: 09 July 2018
+; Modified By: Joshua Arrants
+; Description: This HTML page uses a script to 
+;              build an array of fruits with two properties id and type.
+;              A for loop is used to iterate over the array and outputs
+;              the results to the DOM in a <ul></ul> tag.
+======
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8.2</title>
+
+    <style type="text/css">
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>Shopping List</h1>
+
+<div id="fruits"></div>
+
+<script>
+
+    var fruits = [
+        {
+            id: "1: ",
+            type: "Oranges"
+        },
+        {
+            id: "2: ",
+            type: "Apples"
+        },
+        {
+            id: "3: ",
+            type: "Pears"
+        },
+        {
+            id: "4: ",
+            type: "Limes"
+        },
+        {
+            id: "5: ",
+            type: "Lemons"
+        }
+    ];
+
+    var out = "<ul>";
+
+    for (var x = 0; x < fruits.length; x++) {
+        out +="<li>" + fruits[x].id + fruits[x].type + "</li>";
+    }
+
+    out += "</ul>";
+
+    document.getElementById('fruits').innerHTML = out;
+
+</script>
+
+</body>
+</html>
