@@ -1,3 +1,14 @@
+<!--
+============================================
+; Title: Assignment 8.8
+; Author: Professor Krasso
+; Date: 15 July 2018
+; Modified By: Joshua Arrants
+; Description: 
+
+======
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +55,7 @@ var employees = [
     // getEmployee(id) function
     function getEmployee(id) {
     for(var x = 0; x < id.length; x++) {
-        alert(id[x].id + id[x].firstName + id[x].lastName + id[x].title);
+        return employees[id].id + employees[id].firstName + employees[id].lastName + employees[id].title;
         }
     }
 
@@ -71,10 +82,15 @@ var employees = [
     $(function () {
         $("table tr").click(function () {
 
-            find('td:first').html();
+           var employeeId = $(this).find('td:first').html()
+
+           var findEmployee = getEmployee(employeeId);
+            
+            alert(findEmployee);
 
         })
     });
+    
 </script>
 </body>
 </html>
